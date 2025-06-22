@@ -95,4 +95,12 @@ public class GameManagerX : MonoBehaviour
         }
         GameOver();
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
+        }
+    }
 }

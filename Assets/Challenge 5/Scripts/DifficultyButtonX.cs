@@ -17,7 +17,6 @@ public class DifficultyButtonX : MonoBehaviour
     /* When a button is clicked, call the StartGame() method  and pass it the difficulty value (1, 2, 3) from the button  */
     void SetDifficulty()
     {
-        Debug.Log(_button.gameObject.name + " was clicked");
         _gameManagerX.StartGame(Difficulty);
     }
 }

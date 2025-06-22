@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour
         {
             PauseGame();
         }
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            SceneManager.LoadScene(0, LoadSceneMode.Single);
+        }
     }
 
     IEnumerator SpawnTarget()
